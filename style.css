@@ -1,0 +1,199 @@
+*{
+	font-family: 'Josefin Slab', serif;
+}
+
+.logo
+{
+	height: 70px;
+}
+.a1{
+	margin-top: 50px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('parallax.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.parallax1 {
+    /* The image used */
+    background-image: url('parallax2.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.k
+{
+	text-decoration: none;
+
+}
+.fa{
+
+}
+
+.goodpoints
+{
+	color: white;
+	height: 1000px;
+	margin-bottom: 0px;
+}
+.heading
+{
+	font-size: 40px;
+	padding: 30px;
+}
+.subheading
+{
+	font-size: 20px;
+}
+.point
+{
+	height: 200px;
+	padding: 20px;
+}
+.testimonial{
+	height: 500px;
+	background-color: #99b3ff;
+
+}
+.app
+{
+	padding: 50px;
+}
+.mobileapp
+{
+	height: 580px;
+}
+.footer
+{
+	background-color: #393939;
+	height: 450px;
+	color: white;
+	padding: 20px;
+	
+}
+
+.footmenu
+{
+	padding: 20px;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa:hover {
+    opacity: 0.9;
+}
+.carousel-indicators .active{ background: #31708f; } .content{ margin-top:20px; } .adjust1{ float:left; width:100%; margin-bottom:0; } .adjust2{ margin:0; } .carousel-indicators li{ border :1px solid #ccc; } .carousel-control{ color:#31708f; width:5%; } .carousel-control:hover, .carousel-control:focus{ color:#31708f; } .carousel-control.left, .carousel-control.right { background-image: none; } .media-object{ margin:auto; margin-top:15%; } @media screen and (max-width: 768px) { .media-object{ margin-top:0; } }
+.slq
+{
+	height: 300px;
+}
+.fa-facebook{
+	background-color: black;
+
+}
+.fa-instagram{
+	background-color: black;
+}
+.fa-youtube{
+	background-color: black;
+
+}
+.fa-twitter{
+	background-color: black;
+}
+@media only screen and (max-width: 400px) {
+.heading
+{
+	font-size: 20px;
+	/*padding: 30px;*/
+}
+.pic
+{
+	display: none;
+}
+
+.goodpoints
+{
+	height: 1800px;
+}
+.mobileapp{
+		height: 1000px;
+	}
+	
+}
+@media only screen and (max-width: 767px){
+	.mobileapp{
+		height: 1100px;
+	}
+	.pic
+	{
+		display: none;
+		/*height: 380px;*/
+	}
+}
+@media only screen and (max-width: 1500px){
+	.mobileapp
+	{
+		height: 500px;
+
+	}
+	.pic
+	{
+		height: 480px;
+	}
+
+}
+@media only screen and (max-width: 1000px){
+	.goodpoints
+	{
+		height: 1800px;
+	}
+	.mobileapp{
+		height: 500px;
+	}
+	.pic
+	{
+		height: 480px;
+	}
+	.footer{
+		height: 800px;
+	}
+	}
